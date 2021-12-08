@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "light_controller = py_chester_pkg.light_controller:main",
+            "py_test = py_chester_pkg.OOP_example_node:main"
         ],
     },
 )

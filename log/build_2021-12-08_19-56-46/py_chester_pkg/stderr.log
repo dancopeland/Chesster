@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg/OOP_example_node.py", line 9
+    self.create_timer(0.5), self.timer_callback)
+                                               ^
+SyntaxError: unmatched ')'
+
