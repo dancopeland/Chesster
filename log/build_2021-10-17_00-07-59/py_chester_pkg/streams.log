@@ -1,0 +1,20 @@
+[1.032s] Invoking command in '/home/ubuntu/ros2_ws/src/py_chester_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed
+[1.909s] running egg_info
+[1.912s] writing ../../build/py_chester_pkg/py_chester_pkg.egg-info/PKG-INFO
+[1.913s] writing dependency_links to ../../build/py_chester_pkg/py_chester_pkg.egg-info/dependency_links.txt
+[1.914s] writing entry points to ../../build/py_chester_pkg/py_chester_pkg.egg-info/entry_points.txt
+[1.915s] writing requirements to ../../build/py_chester_pkg/py_chester_pkg.egg-info/requires.txt
+[1.916s] writing top-level names to ../../build/py_chester_pkg/py_chester_pkg.egg-info/top_level.txt
+[2.082s] reading manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[2.086s] writing manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[2.087s] running build
+[2.088s] running build_py
+[2.089s] running install
+[2.092s] running install_lib
+[2.099s] running install_data
+[2.102s] running install_egg_info
+[2.112s] removing '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.114s] Copying ../../build/py_chester_pkg/py_chester_pkg.egg-info to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info
+[2.122s] running install_scripts
+[2.200s] writing list of installed files to '/home/ubuntu/ros2_ws/build/py_chester_pkg/install.log'
+[2.306s] Invoked command in '/home/ubuntu/ros2_ws/src/py_chester_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed

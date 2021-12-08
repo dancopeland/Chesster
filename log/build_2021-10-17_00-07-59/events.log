@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.001072] (cpp_chester_pkg) JobQueued: {'identifier': 'cpp_chester_pkg', 'dependencies': OrderedDict()}
+[0.001755] (py_chester_pkg) JobQueued: {'identifier': 'py_chester_pkg', 'dependencies': OrderedDict()}
+[0.002828] (cpp_chester_pkg) JobStarted: {'identifier': 'cpp_chester_pkg'}
+[0.043730] (py_chester_pkg) JobStarted: {'identifier': 'py_chester_pkg'}
+[0.081421] (cpp_chester_pkg) JobProgress: {'identifier': 'cpp_chester_pkg', 'progress': 'cmake'}
+[0.082420] (cpp_chester_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/cpp_chester_pkg', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cpp_chester_pkg'], 'cwd': '/home/ubuntu/ros2_ws/build/cpp_chester_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.147 51514 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.61.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f05168b9-a268-447f-a463-891423d3f46f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-04276daf02.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/py_chester_pkg:/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/cpp_chester_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.147 51514 192.168.1.132 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.099641] (-) TimerEvent: {}
+[0.201047] (-) TimerEvent: {}
+[0.302315] (-) TimerEvent: {}
+[0.403110] (-) TimerEvent: {}
+[0.503929] (-) TimerEvent: {}
+[0.604715] (-) TimerEvent: {}
+[0.705392] (-) TimerEvent: {}
+[0.806052] (-) TimerEvent: {}
+[0.906851] (-) TimerEvent: {}
+[1.007597] (-) TimerEvent: {}
+[1.064414] (py_chester_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_chester_pkg', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/py_chester_pkg/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/py_chester_pkg', '--record', '/home/ubuntu/ros2_ws/build/py_chester_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/py_chester_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.147 51514 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.61.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f05168b9-a268-447f-a463-891423d3f46f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-04276daf02.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/py_chester_pkg:/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/build/py_chester_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.147 51514 192.168.1.132 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/cpp_chester_pkg'}, 'shell': False}
+[1.107810] (-) TimerEvent: {}
+[1.115192] (cpp_chester_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.207982] (-) TimerEvent: {}
+[1.308667] (-) TimerEvent: {}
+[1.409340] (-) TimerEvent: {}
+[1.510046] (-) TimerEvent: {}
+[1.610706] (-) TimerEvent: {}
+[1.711528] (-) TimerEvent: {}
+[1.812710] (-) TimerEvent: {}
+[1.847298] (cpp_chester_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.880243] (cpp_chester_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.912866] (-) TimerEvent: {}
+[1.953083] (py_chester_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.956060] (py_chester_pkg) StdoutLine: {'line': b'writing ../../build/py_chester_pkg/py_chester_pkg.egg-info/PKG-INFO\n'}
+[1.957403] (py_chester_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_chester_pkg/py_chester_pkg.egg-info/dependency_links.txt\n'}
+[1.958294] (py_chester_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_chester_pkg/py_chester_pkg.egg-info/entry_points.txt\n'}
+[1.959265] (py_chester_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_chester_pkg/py_chester_pkg.egg-info/requires.txt\n'}
+[1.960055] (py_chester_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_chester_pkg/py_chester_pkg.egg-info/top_level.txt\n'}
+[2.013059] (-) TimerEvent: {}
+[2.114101] (-) TimerEvent: {}
+[2.126394] (py_chester_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'\n"}
+[2.130730] (py_chester_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'\n"}
+[2.131470] (py_chester_pkg) StdoutLine: {'line': b'running build\n'}
+[2.132148] (py_chester_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.132977] (py_chester_pkg) StdoutLine: {'line': b'running install\n'}
+[2.136249] (py_chester_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.143323] (py_chester_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.145977] (py_chester_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.156011] (py_chester_pkg) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.158230] (py_chester_pkg) StdoutLine: {'line': b'Copying ../../build/py_chester_pkg/py_chester_pkg.egg-info to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info\n'}
+[2.166496] (py_chester_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.198205] (cpp_chester_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.204421] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.214291] (-) TimerEvent: {}
+[2.244039] (py_chester_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/py_chester_pkg/install.log'\n"}
+[2.314622] (-) TimerEvent: {}
+[2.349805] (py_chester_pkg) CommandEnded: {'returncode': 0}
+[2.413760] (py_chester_pkg) JobEnded: {'identifier': 'py_chester_pkg', 'rc': 0}
+[2.415641] (-) TimerEvent: {}
+[2.516453] (-) TimerEvent: {}
+[2.528136] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.570258] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.572389] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.584795] (cpp_chester_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.616623] (-) TimerEvent: {}
+[2.717467] (-) TimerEvent: {}
+[2.818676] (-) TimerEvent: {}
+[2.919467] (-) TimerEvent: {}
+[2.923149] (cpp_chester_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.927517] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.019811] (-) TimerEvent: {}
+[3.120654] (-) TimerEvent: {}
+[3.221567] (-) TimerEvent: {}
+[3.270654] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.315164] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.317093] (cpp_chester_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.321700] (-) TimerEvent: {}
+[3.349200] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.421851] (-) TimerEvent: {}
+[3.493383] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.494544] (cpp_chester_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.522046] (-) TimerEvent: {}
+[3.622825] (-) TimerEvent: {}
+[3.723536] (-) TimerEvent: {}
+[3.824241] (-) TimerEvent: {}
+[3.924893] (-) TimerEvent: {}
+[4.025551] (-) TimerEvent: {}
+[4.126197] (-) TimerEvent: {}
+[4.226894] (-) TimerEvent: {}
+[4.327595] (-) TimerEvent: {}
+[4.418993] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.427841] (-) TimerEvent: {}
+[4.528561] (-) TimerEvent: {}
+[4.629327] (-) TimerEvent: {}
+[4.730029] (-) TimerEvent: {}
+[4.768283] (cpp_chester_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.824522] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.830280] (-) TimerEvent: {}
+[4.931014] (-) TimerEvent: {}
+[5.031712] (-) TimerEvent: {}
+[5.132547] (-) TimerEvent: {}
+[5.224317] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.232692] (-) TimerEvent: {}
+[5.333399] (-) TimerEvent: {}
+[5.350482] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.433559] (-) TimerEvent: {}
+[5.534252] (-) TimerEvent: {}
+[5.634932] (-) TimerEvent: {}
+[5.735660] (-) TimerEvent: {}
+[5.767505] (cpp_chester_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.835817] (-) TimerEvent: {}
+[5.936525] (-) TimerEvent: {}
+[6.037208] (-) TimerEvent: {}
+[6.089677] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.098568] (cpp_chester_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.105376] (cpp_chester_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.137378] (-) TimerEvent: {}
+[6.238129] (-) TimerEvent: {}
+[6.338969] (-) TimerEvent: {}
+[6.439718] (-) TimerEvent: {}
+[6.449931] (cpp_chester_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.450954] (cpp_chester_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.540045] (-) TimerEvent: {}
+[6.640890] (-) TimerEvent: {}
+[6.741787] (-) TimerEvent: {}
+[6.764157] (cpp_chester_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.765079] (cpp_chester_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.841978] (-) TimerEvent: {}
+[6.942740] (-) TimerEvent: {}
+[7.029360] (cpp_chester_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.030038] (cpp_chester_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.042891] (-) TimerEvent: {}
+[7.143740] (-) TimerEvent: {}
+[7.244712] (-) TimerEvent: {}
+[7.344770] (cpp_chester_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.345362] (-) TimerEvent: {}
+[7.350297] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.445558] (-) TimerEvent: {}
+[7.546248] (-) TimerEvent: {}
+[7.647033] (-) TimerEvent: {}
+[7.747991] (-) TimerEvent: {}
+[7.848881] (-) TimerEvent: {}
+[7.950147] (-) TimerEvent: {}
+[8.051017] (-) TimerEvent: {}
+[8.129246] (cpp_chester_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.151288] (-) TimerEvent: {}
+[8.252122] (-) TimerEvent: {}
+[8.352935] (-) TimerEvent: {}
+[8.454067] (-) TimerEvent: {}
+[8.533335] (cpp_chester_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.548120] (cpp_chester_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.554210] (-) TimerEvent: {}
+[8.557480] (cpp_chester_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.584562] (cpp_chester_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.594970] (cpp_chester_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[8.600747] (cpp_chester_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/cpp_chester_pkg\n'}
+[8.624324] (cpp_chester_pkg) CommandEnded: {'returncode': 0}
+[8.626362] (cpp_chester_pkg) JobProgress: {'identifier': 'cpp_chester_pkg', 'progress': 'build'}
+[8.629351] (cpp_chester_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/cpp_chester_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/cpp_chester_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.147 51514 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.61.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f05168b9-a268-447f-a463-891423d3f46f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-04276daf02.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/py_chester_pkg:/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/cpp_chester_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.147 51514 192.168.1.132 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy')]), 'shell': False}
+[8.654462] (-) TimerEvent: {}
+[8.755308] (-) TimerEvent: {}
+[8.804046] (cpp_chester_pkg) CommandEnded: {'returncode': 0}
+[8.855531] (-) TimerEvent: {}
+[8.904941] (cpp_chester_pkg) JobProgress: {'identifier': 'cpp_chester_pkg', 'progress': 'install'}
+[8.945039] (cpp_chester_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/cpp_chester_pkg'], 'cwd': '/home/ubuntu/ros2_ws/build/cpp_chester_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.147 51514 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.61.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f05168b9-a268-447f-a463-891423d3f46f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-04276daf02.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/py_chester_pkg:/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/cpp_chester_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.147 51514 192.168.1.132 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy')]), 'shell': False}
+[8.955797] (-) TimerEvent: {}
+[8.988902] (cpp_chester_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.989752] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_chester_pkg\n'}
+[8.991429] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_chester_pkg\n'}
+[8.993033] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/ament_prefix_path.sh\n'}
+[8.994111] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/ament_prefix_path.dsv\n'}
+[8.995203] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/path.sh\n'}
+[8.996264] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/path.dsv\n'}
+[8.997292] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.bash\n'}
+[8.998331] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.sh\n'}
+[8.999386] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.zsh\n'}
+[9.000597] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.dsv\n'}
+[9.001596] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.dsv\n'}
+[9.002961] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/ament_index/resource_index/packages/cpp_chester_pkg\n'}
+[9.004295] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/cmake/cpp_chester_pkgConfig.cmake\n'}
+[9.005132] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/cmake/cpp_chester_pkgConfig-version.cmake\n'}
+[9.006226] (cpp_chester_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.xml\n'}
+[9.011888] (cpp_chester_pkg) CommandEnded: {'returncode': 0}
+[9.056087] (-) TimerEvent: {}
+[9.156976] (-) TimerEvent: {}
+[9.175766] (cpp_chester_pkg) JobEnded: {'identifier': 'cpp_chester_pkg', 'rc': 0}
+[9.178981] (-) EventReactorShutdown: {}

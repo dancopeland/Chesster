@@ -1,0 +1,33 @@
+[0.920s] Invoking command in '/home/ubuntu/ros2_ws/src/py_chester_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed
+[1.718s] running egg_info
+[1.720s] creating ../../build/py_chester_pkg/py_chester_pkg.egg-info
+[1.721s] writing ../../build/py_chester_pkg/py_chester_pkg.egg-info/PKG-INFO
+[1.721s] writing dependency_links to ../../build/py_chester_pkg/py_chester_pkg.egg-info/dependency_links.txt
+[1.722s] writing entry points to ../../build/py_chester_pkg/py_chester_pkg.egg-info/entry_points.txt
+[1.723s] writing requirements to ../../build/py_chester_pkg/py_chester_pkg.egg-info/requires.txt
+[1.723s] writing top-level names to ../../build/py_chester_pkg/py_chester_pkg.egg-info/top_level.txt
+[1.732s] writing manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[1.894s] reading manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[1.897s] writing manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[1.898s] running build
+[1.898s] running build_py
+[1.899s] creating /home/ubuntu/ros2_ws/build/py_chester_pkg/build
+[1.900s] creating /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib
+[1.900s] creating /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib/py_chester_pkg
+[1.901s] copying py_chester_pkg/__init__.py -> /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib/py_chester_pkg
+[1.901s] running install
+[1.905s] running install_lib
+[1.910s] creating /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg
+[1.911s] copying /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib/py_chester_pkg/__init__.py -> /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg
+[1.913s] byte-compiling /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg/__init__.py to __init__.cpython-38.pyc
+[1.918s] running install_data
+[1.921s] creating /home/ubuntu/ros2_ws/install/py_chester_pkg/share/ament_index
+[1.922s] creating /home/ubuntu/ros2_ws/install/py_chester_pkg/share/ament_index/resource_index
+[1.922s] creating /home/ubuntu/ros2_ws/install/py_chester_pkg/share/ament_index/resource_index/packages
+[1.923s] copying resource/py_chester_pkg -> /home/ubuntu/ros2_ws/install/py_chester_pkg/share/ament_index/resource_index/packages
+[1.923s] copying package.xml -> /home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg
+[1.924s] running install_egg_info
+[1.931s] Copying ../../build/py_chester_pkg/py_chester_pkg.egg-info to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info
+[1.936s] running install_scripts
+[2.013s] writing list of installed files to '/home/ubuntu/ros2_ws/build/py_chester_pkg/install.log'
+[2.108s] Invoked command in '/home/ubuntu/ros2_ws/src/py_chester_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed
