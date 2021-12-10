@@ -9,9 +9,12 @@ setup.py
 ../../build/py_chester_pkg/py_chester_pkg.egg-info/top_level.txt
 ../../build/py_chester_pkg/py_chester_pkg.egg-info/zip-safe
 py_chester_pkg/OOP_example_node.py
+py_chester_pkg/UltrasoundTest.py
 py_chester_pkg/__init__.py
 py_chester_pkg/example_node.py
 py_chester_pkg/light_controller.py
+py_chester_pkg/serialArduinoPrint.py
+py_chester_pkg/ultrasoundPublisher.py
 resource/py_chester_pkg
 test/test_copyright.py
 test/test_flake8.py

@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "light_controller = py_chester_pkg.light_controller:main",
-            "py_test = py_chester_pkg.OOP_example_node:main"
+            "py_test = py_chester_pkg.OOP_example_node:main",
+            "ultrasound_publisher = py_chester_pkg.ultrasoundPublisher:main",
         ],
     },
 )

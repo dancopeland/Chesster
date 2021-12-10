@@ -1,0 +1,35 @@
+[0.133s] Invoking command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cpp_chester_pkg -- -j4 -l4
+[0.495s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.620s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.589s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.833s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.842s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.519s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.835s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.851s] -- Added test 'lint_cmake' to check CMake code style
+[3.860s] -- Added test 'xmllint' to check XML markup files
+[3.885s] -- Configuring done
+[3.917s] -- Generating done
+[3.927s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/cpp_chester_pkg
+[4.019s] Invoked command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cpp_chester_pkg -- -j4 -l4
+[4.174s] Invoking command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cpp_chester_pkg
+[4.208s] -- Install configuration: ""
+[4.209s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_chester_pkg
+[4.210s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_chester_pkg
+[4.211s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/ament_prefix_path.sh
+[4.211s] -- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/ament_prefix_path.dsv
+[4.213s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/path.sh
+[4.214s] -- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/environment/path.dsv
+[4.215s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.bash
+[4.216s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.sh
+[4.217s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.zsh
+[4.217s] -- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/local_setup.dsv
+[4.218s] -- Installing: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.dsv
+[4.220s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/ament_index/resource_index/packages/cpp_chester_pkg
+[4.221s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/cmake/cpp_chester_pkgConfig.cmake
+[4.222s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/cmake/cpp_chester_pkgConfig-version.cmake
+[4.222s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.xml
+[4.234s] Invoked command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cpp_chester_pkg
