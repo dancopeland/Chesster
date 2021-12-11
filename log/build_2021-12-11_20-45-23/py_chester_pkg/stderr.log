@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg/roboticArmTrigger.py", line 27
+    goal_msg.Request request
+                     ^
+SyntaxError: invalid syntax
+

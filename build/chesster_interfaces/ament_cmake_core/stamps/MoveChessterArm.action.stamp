@@ -1,0 +1,17 @@
+bool request
+---
+string result
+int32 final_servo_0_angle
+int32 final_servo_1_angle
+int32 final_servo_2_angle
+int32 final_servo_3_angle
+int32 final_servo_4_angle
+int32 final_servo_5_angle
+---
+string status
+int32 servo_0_angle
+int32 servo_1_angle
+int32 servo_2_angle
+int32 servo_3_angle
+int32 servo_4_angle
+int32 servo_5_angle

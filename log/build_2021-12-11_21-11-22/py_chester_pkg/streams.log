@@ -1,0 +1,36 @@
+[0.984s] Invoking command in '/home/ubuntu/ros2_ws/build/py_chester_pkg': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build
+[2.090s] running develop
+[2.797s] Invoked command in '/home/ubuntu/ros2_ws/build/py_chester_pkg' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build
+[2.802s] Invoking command in '/home/ubuntu/ros2_ws/src/py_chester_pkg': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed
+[3.634s] running egg_info
+[3.637s] writing ../../build/py_chester_pkg/py_chester_pkg.egg-info/PKG-INFO
+[3.638s] writing dependency_links to ../../build/py_chester_pkg/py_chester_pkg.egg-info/dependency_links.txt
+[3.639s] writing entry points to ../../build/py_chester_pkg/py_chester_pkg.egg-info/entry_points.txt
+[3.640s] writing requirements to ../../build/py_chester_pkg/py_chester_pkg.egg-info/requires.txt
+[3.641s] writing top-level names to ../../build/py_chester_pkg/py_chester_pkg.egg-info/top_level.txt
+[3.793s] reading manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[3.798s] writing manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[3.799s] running build
+[3.800s] running build_py
+[3.801s] copying py_chester_pkg/RoboticArmDriver.py -> /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib/py_chester_pkg
+[3.804s] running install
+[3.808s] running install_lib
+[3.813s] copying /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib/py_chester_pkg/RoboticArmDriver.py -> /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg
+[3.818s] byte-compiling /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg/RoboticArmDriver.py to RoboticArmDriver.cpython-38.pyc
+[3.823s]   File "/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg/RoboticArmDriver.py", line 25
+[3.823s]     }
+[3.824s]     ^
+[3.825s] SyntaxError: unmatched '}'
+[3.825s] 
+[3.826s] running install_data
+[3.827s] running install_egg_info
+[3.834s] removing '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.836s] Copying ../../build/py_chester_pkg/py_chester_pkg.egg-info to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info
+[3.842s] running install_scripts
+[3.912s] Installing light_controller script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[3.913s] Installing py_test script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[3.916s] Installing roboticArmDriver script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[3.917s] Installing roboticArmTrigger script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[3.917s] Installing ultrasound_publisher script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[3.919s] writing list of installed files to '/home/ubuntu/ros2_ws/build/py_chester_pkg/install.log'
+[4.023s] Invoked command in '/home/ubuntu/ros2_ws/src/py_chester_pkg' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed

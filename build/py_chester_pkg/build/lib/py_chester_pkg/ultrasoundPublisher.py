@@ -14,13 +14,16 @@ class UltrasoundPublisherNode(Node):
 
         self.TRIG = 16
         self.ECHO = 18
+        self.LED = 15
         self.i = 0
 
         GPIO.setup(self.TRIG,GPIO.OUT)
         GPIO.setup(self.ECHO,GPIO.IN)
+        GPIO.setup(self.LED,GPIO.OUT)
         GPIO.setwarnings(False)
 
         GPIO.output(self.TRIG, False)
+        GPIO.output(self.LED, False)
         print("Calibrating.....")
         time.sleep(2)
         print("Place the object......") 
@@ -45,13 +48,15 @@ class UltrasoundPublisherNode(Node):
 
         distance = int(round(distance+1.15, 2))
 
-        if distance<=20 and distance>=5:
+        if distance<=20 and distance>=2:
             #print ("distance: %d cm" % (distance))
+            GPIO.output(self.LED, True)
             self.i=1
     
         if distance>20 and self.i==1:
             #print("place the object....")
             self.i=0
+            GPIO.output(self.LED, False)
             time.sleep(.02)
 
         msg.data = distance

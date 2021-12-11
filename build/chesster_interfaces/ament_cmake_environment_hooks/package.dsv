@@ -1,0 +1,4 @@
+source;share/chesster_interfaces/local_setup.bash
+source;share/chesster_interfaces/local_setup.dsv
+source;share/chesster_interfaces/local_setup.sh
+source;share/chesster_interfaces/local_setup.zsh

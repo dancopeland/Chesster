@@ -11,10 +11,10 @@ class RoboticArmDriver(Node):
         super().__init__("roboticArmDriver")
         self.subscriber_ = self.create_subscription(
             Int64, "ultrasound_distance", self.callback_ultrasound_distance, 10)
-        self.get_logger.info("Robotic Arm Driver has been started")
+        self.get_logger().info("Robotic Arm Driver has been started")
 
     def callback_ultrasound_distance(self, msg):
-        self.get_logger().info(msg.data)
+        self.get_logger().info(str(msg.data))
 
 def main(args = None):
     rclpy.init(args = args)

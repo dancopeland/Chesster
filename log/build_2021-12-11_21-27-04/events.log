@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.001896] (-) JobUnselected: {'identifier': 'cpp_chester_pkg'}
+[0.003197] (-) JobUnselected: {'identifier': 'py_chester_pkg'}
+[0.003519] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.004407] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.055408] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.063101] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.063648] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/my_robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.147 53718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.61.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b1e53a53-1c6c-462f-abbc-5af24fe6fe5a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-80acd613af.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/py_chester_pkg:/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.147 53718 192.168.1.132 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/build/py_chester_pkg:/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/cpp_chester_pkg:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.098619] (-) TimerEvent: {}
+[0.174480] (my_robot_interfaces) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:21:\n'}
+[0.175491] (my_robot_interfaces) StderrLine: {'line': b'  Syntax Warning in cmake code at column 33\n'}
+[0.176157] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.176716] (my_robot_interfaces) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.177287] (my_robot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.177856] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.195249] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.198772] (-) TimerEvent: {}
+[0.299760] (-) TimerEvent: {}
+[0.316726] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.317560] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399886] (-) TimerEvent: {}
+[0.500597] (-) TimerEvent: {}
+[0.601394] (-) TimerEvent: {}
+[0.702255] (-) TimerEvent: {}
+[0.803637] (-) TimerEvent: {}
+[0.905436] (-) TimerEvent: {}
+[1.006379] (-) TimerEvent: {}
+[1.063451] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.074389] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.089562] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.106537] (-) TimerEvent: {}
+[1.207395] (-) TimerEvent: {}
+[1.308256] (-) TimerEvent: {}
+[1.409004] (-) TimerEvent: {}
+[1.510016] (-) TimerEvent: {}
+[1.610969] (-) TimerEvent: {}
+[1.711891] (-) TimerEvent: {}
+[1.736576] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.812069] (-) TimerEvent: {}
+[1.835344] (my_robot_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[1.836207] (my_robot_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file ',' doesn't exist relative to\n"}
+[1.836792] (my_robot_interfaces) StderrLine: {'line': b"  the CMAKE_CURRENT_SOURCE_DIR '/home/ubuntu/ros2_ws/src/my_robot_interfaces'\n"}
+[1.837241] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.837677] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:20 (rosidl_generate_interfaces)\n'}
+[1.838082] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.838447] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[1.845783] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.846483] (my_robot_interfaces) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.864566] (my_robot_interfaces) StderrLine: {'line': b'make: *** [Makefile:748: cmake_check_build_system] Error 1\n'}
+[1.870600] (my_robot_interfaces) CommandEnded: {'returncode': 2}
+[1.912319] (-) TimerEvent: {}
+[2.013367] (-) TimerEvent: {}
+[2.115867] (-) TimerEvent: {}
+[2.217545] (-) TimerEvent: {}
+[2.268305] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 2}
+[2.273206] (-) EventReactorShutdown: {}

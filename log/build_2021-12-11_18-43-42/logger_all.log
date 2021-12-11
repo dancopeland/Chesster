@@ -1,0 +1,249 @@
+[1.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.186s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb2bc5610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb2bc5610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb2bc5b50>)
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.213s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extension 'ignore'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extension 'ignore_ament_install'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extensions ['colcon_pkg']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extension 'colcon_pkg'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extension 'colcon_meta'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extensions ['ros']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_chester_pkg) by extension 'ros'
+[1.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_chester_pkg' with type 'ros.ament_cmake' and name 'cpp_chester_pkg'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[1.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extension 'ignore'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extension 'ignore_ament_install'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extensions ['colcon_pkg']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extension 'colcon_pkg'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extensions ['colcon_meta']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extension 'colcon_meta'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extensions ['ros']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_chester_pkg) by extension 'ros'
+[1.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_chester_pkg' with type 'ros.ament_python' and name 'py_chester_pkg'
+[1.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'cmake_target' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'cpp_chester_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.381s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_chester_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/cpp_chester_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/cpp_chester_pkg', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/cpp_chester_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.394s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.394s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.394s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.394s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.405s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'cmake_args' from command line to 'None'
+[1.405s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'cmake_target' from command line to 'None'
+[1.405s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.405s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'py_chester_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.406s] DEBUG:colcon.colcon_core.verb:Building package 'py_chester_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/py_chester_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/py_chester_pkg', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/py_chester_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.408s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.416s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[1.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/my_robot_interfaces'
+[1.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.449s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/cpp_chester_pkg' with build type 'ament_cmake'
+[1.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/cpp_chester_pkg'
+[1.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.477s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[1.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cpp_chester_pkg -- -j4 -l4
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[1.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cpp_chester_pkg -- -j4 -l4
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/my_robot_interfaces
+[1.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cpp_chester_pkg
+[1.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/my_robot_interfaces
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces' for CMake module files
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces' for CMake config files
+[1.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.968s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces/bin'
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[2.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_chester_pkg)
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg' for CMake module files
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/cpp_chester_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cpp_chester_pkg
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg' for CMake config files
+[2.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_chester_pkg', 'cmake_prefix_path')
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/hook/cmake_prefix_path.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/hook/cmake_prefix_path.dsv'
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/hook/cmake_prefix_path.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/bin'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/lib/pkgconfig/cpp_chester_pkg.pc'
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/lib/python3.8/site-packages'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.ps1'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.sh'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.bash'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.zsh'
+[2.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/colcon-core/packages/cpp_chester_pkg)
+[2.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces' for CMake module files
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces' for CMake config files
+[2.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces/bin'
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[2.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[2.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[2.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[2.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[2.167s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/py_chester_pkg' with build type 'ament_python'
+[2.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_chester_pkg', 'ament_prefix_path')
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/hook/ament_prefix_path.ps1'
+[2.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/hook/ament_prefix_path.dsv'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/hook/ament_prefix_path.sh'
+[2.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.197s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_chester_pkg)
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg' for CMake module files
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg' for CMake config files
+[2.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_chester_pkg', 'cmake_prefix_path')
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/hook/cmake_prefix_path.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/hook/cmake_prefix_path.dsv'
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/hook/cmake_prefix_path.sh'
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/bin'
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/lib/pkgconfig/cpp_chester_pkg.pc'
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/lib/python3.8/site-packages'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.ps1'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.dsv'
+[2.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.sh'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.bash'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/cpp_chester_pkg/package.zsh'
+[2.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/cpp_chester_pkg/share/colcon-core/packages/cpp_chester_pkg)
+[3.144s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/py_chester_pkg'
+[3.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.158s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/py_chester_pkg': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build
+[4.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/py_chester_pkg' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build
+[4.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/py_chester_pkg': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed
+[5.856s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/py_chester_pkg' for CMake module files
+[5.859s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/py_chester_pkg' for CMake config files
+[5.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/py_chester_pkg' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed
+[5.866s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib'
+[5.867s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/py_chester_pkg/bin'
+[5.876s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/pkgconfig/py_chester_pkg.pc'
+[5.877s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages'
+[5.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_chester_pkg', 'pythonpath')
+[5.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/hook/pythonpath.ps1'
+[5.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/hook/pythonpath.dsv'
+[5.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/hook/pythonpath.sh'
+[5.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_chester_pkg)
+[5.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/package.ps1'
+[5.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/package.dsv'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/package.sh'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/package.bash'
+[5.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/py_chester_pkg/share/py_chester_pkg/package.zsh'
+[5.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/py_chester_pkg/share/colcon-core/packages/py_chester_pkg)
+[5.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.908s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.909s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.909s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.941s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.942s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.942s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.942s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.946s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.946s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[5.953s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[5.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[5.969s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[5.972s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[5.975s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[5.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[5.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[5.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[6.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

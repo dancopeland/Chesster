@@ -23,7 +23,8 @@ setup(
             "light_controller = py_chester_pkg.light_controller:main",
             "py_test = py_chester_pkg.OOP_example_node:main",
             "ultrasound_publisher = py_chester_pkg.ultrasoundPublisher:main",
-            "roboticArmDriver = py_chester_pkg.roboticArmDriver:main"
+            "roboticArmTrigger = py_chester_pkg.roboticArmTrigger:main",
+            "roboticArmDriver = py_chester_pkg.RoboticArmDriver:main"
         ],
     },
 )

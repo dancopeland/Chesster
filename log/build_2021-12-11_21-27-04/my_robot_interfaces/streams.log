@@ -1,0 +1,25 @@
+[0.062s] Invoking command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.170s] CMake Warning (dev) at CMakeLists.txt:21:
+[0.171s]   Syntax Warning in cmake code at column 33
+[0.171s] 
+[0.172s]   Argument not separated from preceding token by whitespace.
+[0.172s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.173s] 
+[0.190s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.312s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.313s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.059s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.069s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.085s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.830s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.831s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[1.832s]   the CMAKE_CURRENT_SOURCE_DIR '/home/ubuntu/ros2_ws/src/my_robot_interfaces'
+[1.832s] Call Stack (most recent call first):
+[1.833s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[1.833s] 
+[1.833s] 
+[1.841s] -- Configuring incomplete, errors occurred!
+[1.841s] See also "/home/ubuntu/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[1.863s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[1.866s] Invoked command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4

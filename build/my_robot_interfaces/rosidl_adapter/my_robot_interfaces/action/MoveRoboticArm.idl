@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_robot_interfaces/action/MoveRoboticArm.action
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module action {
+    struct MoveRoboticArm_Goal {
+      boolean request;
+    };
+    struct MoveRoboticArm_Result {
+      string result;
+
+      int64 final_servo_0_angle;
+
+      int64 final_servo_1_angle;
+
+      int64 final_servo_2_angle;
+
+      int64 final_servo_3_angle;
+
+      int64 final_servo_4_angle;
+
+      int64 final_servo_5_angle;
+    };
+    struct MoveRoboticArm_Feedback {
+      string status;
+
+      int64 servo_0_angle;
+
+      int64 servo_1_angle;
+
+      int64 servo_2_angle;
+
+      int64 servo_3_angle;
+
+      int64 servo_4_angle;
+
+      int64 servo_5_angle;
+    };
+  };
+};

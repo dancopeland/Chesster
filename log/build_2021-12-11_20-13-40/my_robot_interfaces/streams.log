@@ -1,0 +1,33 @@
+[0.086s] Invoking command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.221s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.368s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.184s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.210s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.951s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.242s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.255s] -- Added test 'lint_cmake' to check CMake code style
+[2.262s] -- Added test 'xmllint' to check XML markup files
+[2.278s] -- Configuring done
+[2.292s] -- Generating done
+[2.300s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/my_robot_interfaces
+[2.393s] Invoked command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[2.509s] Invoking command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/my_robot_interfaces
+[2.542s] -- Install configuration: ""
+[2.543s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[2.544s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[2.545s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[2.546s] -- Installing: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[2.547s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[2.547s] -- Installing: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[2.548s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[2.549s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[2.549s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[2.550s] -- Installing: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[2.551s] -- Installing: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[2.553s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[2.554s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[2.554s] -- Up-to-date: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[2.555s] -- Installing: /home/ubuntu/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[2.566s] Invoked command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/my_robot_interfaces

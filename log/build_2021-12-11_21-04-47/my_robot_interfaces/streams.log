@@ -1,0 +1,19 @@
+[0.086s] Invoking command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.206s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.187s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.226s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.903s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.003s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[2.004s]   rosidl_generate_interfaces() the passed file
+[2.004s]   'action/MoveRoboticsArm.action' doesn't exist relative to the
+[2.005s]   CMAKE_CURRENT_SOURCE_DIR '/home/ubuntu/ros2_ws/src/my_robot_interfaces'
+[2.005s] Call Stack (most recent call first):
+[2.005s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[2.006s] 
+[2.006s] 
+[2.014s] -- Configuring incomplete, errors occurred!
+[2.014s] See also "/home/ubuntu/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[2.026s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[2.032s] Invoked command in '/home/ubuntu/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/py_chester_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_robot_interfaces -- -j4 -l4
