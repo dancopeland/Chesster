@@ -1,0 +1,27 @@
+[1.039s] Invoking command in '/home/ubuntu/ros2_ws/src/py_chester_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed
+[1.922s] running egg_info
+[1.925s] writing ../../build/py_chester_pkg/py_chester_pkg.egg-info/PKG-INFO
+[1.926s] writing dependency_links to ../../build/py_chester_pkg/py_chester_pkg.egg-info/dependency_links.txt
+[1.927s] writing entry points to ../../build/py_chester_pkg/py_chester_pkg.egg-info/entry_points.txt
+[1.928s] writing requirements to ../../build/py_chester_pkg/py_chester_pkg.egg-info/requires.txt
+[1.929s] writing top-level names to ../../build/py_chester_pkg/py_chester_pkg.egg-info/top_level.txt
+[2.079s] reading manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[2.085s] writing manifest file '../../build/py_chester_pkg/py_chester_pkg.egg-info/SOURCES.txt'
+[2.085s] running build
+[2.086s] running build_py
+[2.087s] copying py_chester_pkg/roboticArmDriver.py -> /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib/py_chester_pkg
+[2.090s] running install
+[2.094s] running install_lib
+[2.100s] copying /home/ubuntu/ros2_ws/build/py_chester_pkg/build/lib/py_chester_pkg/roboticArmDriver.py -> /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg
+[2.104s] byte-compiling /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg/roboticArmDriver.py to roboticArmDriver.cpython-38.pyc
+[2.111s] running install_data
+[2.113s] running install_egg_info
+[2.120s] removing '/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.122s] Copying ../../build/py_chester_pkg/py_chester_pkg.egg-info to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py_chester_pkg-0.0.0-py3.8.egg-info
+[2.129s] running install_scripts
+[2.196s] Installing light_controller script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.198s] Installing py_test script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.199s] Installing roboticArmDriver script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.200s] Installing ultrasound_publisher script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.202s] writing list of installed files to '/home/ubuntu/ros2_ws/build/py_chester_pkg/install.log'
+[2.302s] Invoked command in '/home/ubuntu/ros2_ws/src/py_chester_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_chester_pkg build --build-base /home/ubuntu/ros2_ws/build/py_chester_pkg/build install --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --record /home/ubuntu/ros2_ws/build/py_chester_pkg/install.log --single-version-externally-managed

@@ -13,9 +13,14 @@ py_chester_pkg/UltrasoundTest.py
 py_chester_pkg/__init__.py
 py_chester_pkg/example_node.py
 py_chester_pkg/light_controller.py
+py_chester_pkg/roboticArmDriver.py
 py_chester_pkg/serialArduinoPrint.py
 py_chester_pkg/ultrasoundPublisher.py
+py_chester_pkg.egg-info/PKG-INFO
+py_chester_pkg.egg-info/SOURCES.txt
+py_chester_pkg.egg-info/dependency_links.txt
+py_chester_pkg.egg-info/entry_points.txt
+py_chester_pkg.egg-info/requires.txt
+py_chester_pkg.egg-info/top_level.txt
+py_chester_pkg.egg-info/zip-safe
 resource/py_chester_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

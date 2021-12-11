@@ -1,0 +1,20 @@
+[0.969s] Invoking command in '/home/ubuntu/ros2_ws/build/py_chester_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/py_chester_pkg
+[1.862s] running develop
+[2.331s] running egg_info
+[2.332s] writing py_chester_pkg.egg-info/PKG-INFO
+[2.333s] writing dependency_links to py_chester_pkg.egg-info/dependency_links.txt
+[2.335s] writing entry points to py_chester_pkg.egg-info/entry_points.txt
+[2.336s] writing requirements to py_chester_pkg.egg-info/requires.txt
+[2.336s] writing top-level names to py_chester_pkg.egg-info/top_level.txt
+[2.477s] reading manifest file 'py_chester_pkg.egg-info/SOURCES.txt'
+[2.482s] writing manifest file 'py_chester_pkg.egg-info/SOURCES.txt'
+[2.488s] running build_ext
+[2.489s] Creating /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py-chester-pkg.egg-link (link to .)
+[2.494s] Installing light_controller script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.495s] Installing py_test script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.496s] Installing roboticArmDriver script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.497s] Installing ultrasound_publisher script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.498s] 
+[2.499s] Installed /home/ubuntu/ros2_ws/build/py_chester_pkg
+[2.500s] running install_data
+[2.606s] Invoked command in '/home/ubuntu/ros2_ws/build/py_chester_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/py_chester_pkg

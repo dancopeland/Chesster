@@ -1,0 +1,21 @@
+[0.974s] Invoking command in '/home/ubuntu/ros2_ws/build/py_chester_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/py_chester_pkg
+[1.874s] running develop
+[2.343s] running egg_info
+[2.344s] writing py_chester_pkg.egg-info/PKG-INFO
+[2.345s] writing dependency_links to py_chester_pkg.egg-info/dependency_links.txt
+[2.346s] writing entry points to py_chester_pkg.egg-info/entry_points.txt
+[2.347s] writing requirements to py_chester_pkg.egg-info/requires.txt
+[2.348s] writing top-level names to py_chester_pkg.egg-info/top_level.txt
+[2.488s] reading manifest file 'py_chester_pkg.egg-info/SOURCES.txt'
+[2.493s] writing manifest file 'py_chester_pkg.egg-info/SOURCES.txt'
+[2.501s] running build_ext
+[2.503s] Creating /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/site.py
+[2.515s] Creating /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages/py-chester-pkg.egg-link (link to .)
+[2.519s] Installing light_controller script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.520s] Installing py_test script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.521s] Installing roboticArmDriver script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.522s] Installing ultrasound_publisher script to /home/ubuntu/ros2_ws/install/py_chester_pkg/lib/py_chester_pkg
+[2.524s] 
+[2.524s] Installed /home/ubuntu/ros2_ws/build/py_chester_pkg
+[2.526s] running install_data
+[2.632s] Invoked command in '/home/ubuntu/ros2_ws/build/py_chester_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/py_chester_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/py_chester_pkg --editable --build-directory /home/ubuntu/ros2_ws/build/py_chester_pkg/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/py_chester_pkg
